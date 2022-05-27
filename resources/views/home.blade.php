@@ -9,7 +9,7 @@
 </head>
 <body>
     @foreach ($trains as $train)
-    
+    <div class="card">
         <p>
             {{ $train->azienda }}
         </p>
@@ -19,6 +19,7 @@
         <span>
             {{ $train->stazione_di_arrivo }}
         </span>
+    </div>
     @endforeach
 </body>
 </html>
