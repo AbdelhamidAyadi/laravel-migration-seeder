@@ -9,6 +9,7 @@
 </head>
 <body>
     @foreach ($trains as $train)
+    
         <p>
             {{ $train->azienda }}
         </p>

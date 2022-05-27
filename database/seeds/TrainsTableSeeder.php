@@ -15,12 +15,13 @@ class TrainsTableSeeder extends Seeder
     {
         $train = new Train();
 
-        $train ->azienda = 'Italo';
+        $train ->azienda = 'TrenItalia';
         $train ->stazione_di_partenza = 'Verona';
         $train ->stazione_di_arrivo = 'Milano';
-        $train ->orario_di_partenza = '10:00';
-        $train ->orario_di_arrivo = '11:00';
-        $train ->codice_treno = '113445';
+        $train ->data_di_partenza = '2022-05-29';
+        $train ->orario_di_partenza = '11:00:00';
+        $train ->orario_di_arrivo = '13:00:00';
+        $train ->codice_treno = 'it113035';
         $train ->numero_carrozze = 7;
         $train ->in_orario = true;
         $train ->cancellato = false;
